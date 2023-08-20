@@ -1,15 +1,74 @@
-
+:root{
+  --branding-color:#D8D2DC;
+  --primary-color:#414B67;
+  --accent-color:#F5F2EB;
+  --spice-color:#DCA2B8;
+  --primary-font-family:"Lato", sans-serif;
+  --secondary-font-family:"Roboto", sans-serif;
+}
 h1{
-  font-family:"Lato", sans-serif;
+  font-family:var(--primary-font-family);
   font-weight: 400;
   font-style:normal
 
 }
+h2{
+  font-family:var(--secondary-font-family);
+  font-weight:lighter;
+  
+}
+h3{
+  font-family:var(--primary-font-family);
+  font-style: italic;
+}
 
-p{
-  font-family:"Roboto", sans-serif;
-  font-weight: bolder;
+.hero {
+background:var(--primary-color);
+ width: 0, 500px;
+ text-align:center;
+padding: 175px 20px;
 
 }
+.hero h1{
+  font-size: 72px;
+  color:var(--accent-color);
+  line-height: 1.5;
+}
+.hero h2{
+  font-size: 56px;
+  font-style:normal;
+  color:var(--accent-color);
+  line-height: 1.5;
+  margin: 0;
+}
+.hero h3{
+  color:var(--accent-color);
+  font-size: 34px;
+  line-height: 2;
+  margin: 0;
+}
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 5px;
+  color:var(--spice-color);
+  font-family: var(--primary-font-family);
+  font-size: 20px;
+  line-height: 30px;
+  padding:12px 20px;
+  
+}
+.btn-branding:hover{
+  color: var(--spice-color);
+  background: var(--accent-color);
+  transition: 200ms ease-in-out;
+  
+}
+
+
 /*font-family: 'Lato', sans-serif;
 font-family: 'Roboto', sans-serif;
+#414B67- blue
+#F5F2EB--cream
+#C6CACE- greyish
+#97C0D0-lighterblue
+#D8D2DC-pinkish grey
