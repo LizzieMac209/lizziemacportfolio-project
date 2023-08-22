@@ -15,16 +15,20 @@ h1{
 h2{
   font-family:var(--secondary-font-family);
   font-weight:lighter;
+  font-size: 56px;
+  text-align: center;
   
 }
 h3{
   font-family:var(--branding-color);
 }
+ h4{
+font-size: 48px;
+font-family: var(--secondary-font-family);
+font-weight: bolder;
+color: var(--primary-color);
+ }
 
-h2{
-  font-size: 56px;
-  text-align: center;
-}
 p{
   font-weight: normal;
   font-size: 20px;
@@ -63,6 +67,38 @@ img {
   }
   nav{
     padding:20px 0;
+  }
+  footer{
+    margin: 60px 0;
+  }
+  footer .contact-box{
+    background: var(--branding-color);
+    padding:30px 60px;
+    border-radius: 10px;
+  }
+  footer .email-link{
+    text-decoration:none;
+
+    color:var(--primary-color);
+    font-family: var(--primary-font-family);
+    font-size:22px;
+  }
+  footer .email-link:hover{
+    color:var(--branding-color)
+  }
+  footer .social-links a{
+    margin: 0 20px;
+    color: var(--primary-color);
+    background: var(--branding-color);
+    padding: 10px 14px;
+   font-size: 18px;
+   border-radius: 50%;
+   transition: all 100ms ease-in-out;
+  }
+  
+  footer .social-links a:hover{
+    color:var(--branding-color);
+    background: var(--primary-color);
   }
   
   .bg-navy{
