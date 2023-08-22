@@ -32,7 +32,9 @@ p{
   font-family: var(--secondary-font-family) ;
 line-height: 40px;
 }
-
+img {
+    border-radius:0.375rem;
+  }
 .hero {
 background:var(--primary-color);
 width: 0, 500px;
@@ -160,9 +162,12 @@ padding: 175px 20px;
     margin: 15px;
     text-align: center;
   }
-  img {
-    border-radius:0.375rem;
+  .contact h1{
+    font-family: var(--primary-font-family);
+color: var(--spice-color);
+font-size:50px;
   }
+
 
 
 
