@@ -41,7 +41,7 @@ padding: 175px 20px;
 
 }
 .hero h1{
-  font-size: 72px;
+  font-size: 64px;
   color:var(--accent-color);
   line-height: 1.5;
 }
@@ -54,7 +54,7 @@ padding: 175px 20px;
 }
 .hero h3{
   color:var(--accent-color);
-  font-size: 34px;
+  font-size: 28px;
   line-height: 2;
   margin: 0;
 }
