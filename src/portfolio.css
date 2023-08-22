@@ -71,7 +71,7 @@ img {
     background-size: cover;
   }
   .logo {
-    max-width:115px;
+    max-height:100px;
     border-radius:0.375rem;
     opacity: 85%;
     margin:0;
@@ -203,7 +203,7 @@ padding: 80px 20px;
 background:var(--primary-color);
 width: 0, 500px;
 text-align: center;
-padding: 175px 20px;
+padding:0
   }
   .content-container-content{
     margin: 15px;
@@ -214,6 +214,7 @@ padding: 175px 20px;
     font-family: var(--primary-font-family);
 color: var(--spice-color);
 font-size:50px;
+margin-top: 20px;
   }
   .contact h3{
     font-family: var(--secondary-font-family);
