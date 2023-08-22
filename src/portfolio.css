@@ -122,7 +122,7 @@ padding: 80px 20px;
 }
 }
 
-.about-section h1{ 
+.content-container h1{ 
   font-size: 54px;
   font-family: var(--secondary-font-family);
   color:var(--branding-color);
@@ -130,24 +130,24 @@ padding: 80px 20px;
   text-align: center;
 
   }
-  .about-section h2{
+  .content-container h2{
     font-size: 24px;
     font-family:var(--primary-font-family);
     color:var(--spice-color);
     text-align: center;
   }
-  .about-section p{
+  .content-container p{
     font-family: var(--secondary-font-family);
     line-height: 2;
     color: var(--branding-color);
 
   }
-  .about-section {
+  .content-container {
 background:var(--primary-color);
 width: 0, 500px;
 padding: 175px 20px;
   }
-  .about-section-content{
+  .content-container-content{
     margin: 15px;
   }
   img {
