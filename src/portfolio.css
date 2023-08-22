@@ -19,7 +19,6 @@ h2{
 }
 h3{
   font-family:var(--branding-color);
-  font-style: italic;
 }
 
 h2{
@@ -125,7 +124,7 @@ padding: 80px 20px;
 }
 
 .content h1{ 
-  font-size: 54px;
+  font-size: 44px;
   font-family: var(--secondary-font-family);
   color:var(--branding-color);
   line-height: 80px;
@@ -167,6 +166,25 @@ padding: 175px 20px;
 color: var(--spice-color);
 font-size:50px;
   }
+  .contact h3{
+    font-family: var(--secondary-font-family);
+    color:var(--spice-color);
+    font-size: 24px;
+    font-weight: normal;
+    line-height: .5;
+    font-style: italic;
+    
+  }
+  .contact img{
+    opacity: 40%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; ;
+  }
+  .contact a{
+    color: var(--branding-color);
+
+  }
+
+
 
 
 
