@@ -201,9 +201,9 @@ padding: 80px 20px;
   }
   .content-container {
 background:var(--primary-color);
-width: 0, 500px;
+width: 0, 700px;
 text-align: center;
-padding:0
+padding: 30px;
   }
   .content-container-content{
     margin: 15px;
