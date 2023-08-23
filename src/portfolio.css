@@ -31,7 +31,7 @@ color: var(--primary-color);
 
 p{
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   font-family: var(--secondary-font-family) ;
 line-height: 40px;
 }
@@ -104,7 +104,6 @@ img {
   .bg-navy{
     background-color: var(--primary-color);
     border-radius:0.375rem;
-    background-size: cover;
   }
   .logo {
     max-height:100px;
@@ -118,7 +117,7 @@ img {
 background:var(--primary-color);
 width: 0, 500px;
 text-align:center;
-padding: 175px 20px;
+padding: 80px 20px;
 
 }
 .hero h1{
@@ -195,7 +194,7 @@ padding: 175px 20px;
   }
   .project-description{
     padding:0;
-  text-align: center;
+    text-align: center;
 }
 .hero {
 background:var(--primary-color);
@@ -239,7 +238,7 @@ padding: 80px 20px;
 background:var(--primary-color);
 width: 0, 700px;
 text-align: center;
-padding: 30px;
+padding:60px 20px;
   }
   .content-container-content{
     margin: 15px;
@@ -257,13 +256,14 @@ margin-top: 20px;
     color:var(--spice-color);
     font-size: 24px;
     font-weight: normal;
-    line-height: .5;
+    line-height: 1;
     font-style: italic;
     
   }
   .contact img{
-    opacity: 40%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; ;
+    opacity: 85%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius:15%
   }
   .contact a{
     color: var(--branding-color);
