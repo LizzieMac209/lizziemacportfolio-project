@@ -141,7 +141,7 @@ padding: 80px 20px;
 .btn-branding {
   background: var(--branding-color);
   border-radius: 5px;
-  color:var(--spice-color);
+  color:var(--primary-color);
   font-family: var(--primary-font-family);
   font-weight: normal;
   font-size: 20px;
@@ -235,13 +235,10 @@ padding: 80px 20px;
 
   }
   .content a{
-    color:var(--branding-color);
+    color:var(--spice-color);
     font-family:var(--secondary-font-family);
   }
-  .content a:hover{
-    color:var(--spice-color);
-    transition: all 150ms ease-in-out;
-  }
+
   .content-container {
 background:var(--primary-color);
 width: 0, 700px;
