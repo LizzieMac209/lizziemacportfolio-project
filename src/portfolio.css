@@ -229,10 +229,18 @@ padding: 80px 20px;
   }
   .content p{
     font-family: var(--secondary-font-family);
-    font-size:14px;
+    font-size:18px;
     line-height: 1.5;
     color: var(--branding-color);
 
+  }
+  .content a{
+    color:var(--branding-color);
+    font-family:var(--secondary-font-family);
+  }
+  .content a:hover{
+    color:var(--spice-color);
+    transition: all 150ms ease-in-out;
   }
   .content-container {
 background:var(--primary-color);
