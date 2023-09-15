@@ -6,6 +6,10 @@
   --primary-font-family:"Lato", sans-serif;
   --secondary-font-family:"Roboto", sans-serif;
 }
+body{
+  background-color:var(--accent-color) ;
+}
+
 h1{
   font-family:var(--primary-font-family);
   font-weight: 400;
@@ -14,6 +18,7 @@ h1{
 }
 h2{
   font-family:var(--secondary-font-family);
+  color: #414B67;
   font-weight:lighter;
   font-size: 56px;
   text-align: center;
@@ -32,13 +37,13 @@ color: var(--primary-color);
 p{
   font-weight: normal;
   font-size: 18px;
-  font-family: var(--secondary-font-family) ;
+  font-family: var(--secondary-font-family);
 line-height: 40px;
 }
 img {
-    border-radius:0.375rem;
-    margin-top: 100px;
-    padding:30px;
+   width: 500px;
+   border-radius: 5px;
+    margin: 60px;
 
   }
   nav li{
@@ -106,7 +111,7 @@ img {
     border-radius:0.375rem;
   }
   .logo {
-    max-height:150px;
+    width:150px;
     border-radius:0.375rem;
     opacity: 85%;
     margin:0;
@@ -137,6 +142,11 @@ padding: 80px 20px;
   font-size: 28px;
   line-height: 2;
   margin: 0;
+}
+.project-title p{
+  font-size: 24px;
+  font-weight: bolder;
+  color:#414B67;
 }
 .btn-branding {
   background: var(--branding-color);
@@ -281,8 +291,26 @@ margin-top: 20px;
 
   }
 
-
-
+.work-card-buttons{
+  margin: 0 20px;
+  font-family: var(--primary-font-family);
+    color: var(--spice-color);
+    background: var(--branding-color);
+    padding: 10px 14px;
+   font-size: 18px;
+   border-radius: 50%;
+   transition: all 100ms ease-in-out;
+}
+.work-card-title h3{
+  font-family:var(--primary-font-family);
+  font-size: 40px;
+  font-weight: bolder;
+  color:var(--accent-color);
+  margin-bottom: 30px;
+}
+.coded-by p{
+  font-size: 16px;
+}
 
 
 
